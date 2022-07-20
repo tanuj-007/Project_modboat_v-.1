@@ -43,12 +43,12 @@ const Navbar = ({toggle}) => {
             <NavItem> <NavLinks to='about'>About</NavLinks> </NavItem>
             <NavItem> <NavLinks to='problem'>Problem</NavLinks> </NavItem>
             <NavItem> <NavLinks to='solution'>Solution</NavLinks> </NavItem>
-            <NavItem> <NavLinks to='modules'>Modules</NavLinks> </NavItem>
+            <NavItem> <NavLinks to='Services'>Modules</NavLinks> </NavItem>
             <NavItem> <NavLinks to='usp'>USP</NavLinks> </NavItem>
             <NavItem> <NavLinks to= 'timeline' > Timeline</NavLinks></NavItem>
           </NavMenu>     
 
-          <NavBtn> <NavBtnLink to='/sign_in '>CLICK </NavBtnLink> </NavBtn>
+          <NavBtn> <NavBtnLink to='team;'>CLICK </NavBtnLink> </NavBtn>
           
         </NavbarContainer>
       </Nav>

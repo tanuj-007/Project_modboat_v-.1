@@ -40,17 +40,17 @@ const Services = () => {
                   <ServicesH2> Module 4 </ServicesH2>
                   <ServicesP> Final Project submission</ServicesP>
             </ServicesCard>
-            <ServicesCard>
+            {/* <ServicesCard>
                 <ServicesIcon src= {Icon3}/>
                   <ServicesH2> Module 3 </ServicesH2>
                   <ServicesP> Modular boat assembly</ServicesP>
-            </ServicesCard>
-            <ServicesCard>
+            </ServicesCard> */}
+            {/* <ServicesCard>
                 <ServicesIcon src= {Icon3}/>
                   <ServicesH2> Module 3 </ServicesH2>
                   <ServicesP> Modular boat assembly</ServicesP>
-            </ServicesCard>
-        </ServicesWrapper>
+            </ServicesCard>*/}
+        </ServicesWrapper> 
 
     </ServicesContainer>
   );

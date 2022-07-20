@@ -1,5 +1,6 @@
-import React from 'react';
-import { Button } from '../ButtonElements';
+import  React, {useState}  from 'react';
+// import { Button } from '../ButtonElements';
+import styles from './index.module.css';
 import { 
 InfoWrapper, 
 InfoContainer, 
@@ -32,6 +33,13 @@ const InfoSection = (
     dark2,
     primary}
   ) => {
+
+    const [hover, setHover] = useState(false)
+
+    const onHover = () => {
+      setHover(!hover);
+    };
+
   return (
     <>
      <InfoContainer lightBg ={ lightBg } id={id}>
@@ -44,7 +52,10 @@ const InfoSection = (
                     <Subtitle darkText= {darkText}> <bold> {description}</bold></Subtitle>
                    
                     <BtnWrap> 
-                      <Button to='home'
+                      <div   className= {styles.ghost} onMouseEnter={onHover}style={{color: 'blue'}}
+                      onMouseLeave={onHover} 
+                      // primary='true'dark='true' 
+                      to='home'
                         smooth={true}
                         duration={500}
                         spy={true}
@@ -52,9 +63,9 @@ const InfoSection = (
                         offset={-80} 
                         primary={ primary? 1:0}
                         dark={dark ? 1:0}
-                        dark2={dark2 ? 1:0}
-                        >{buttonLabel}
-                      </Button>
+                        dark2={dark2 ? 1:0}>
+                          {buttonLabel}
+                      </div>
                     </BtnWrap>
 
                 </TextWrapper>

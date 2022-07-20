@@ -115,6 +115,7 @@ export const BtnWrap= styled.div`
 
 export const ImgWrap= styled.div`
   max-width: 555px;
+  // border-radius: 50%;
   height: 100%;
 `;
 
@@ -122,5 +123,6 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px ;
   padding-right: 0;
+  border-radius: 15%;
 `;
  

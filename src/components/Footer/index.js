@@ -1,5 +1,6 @@
 import React from 'react';
 // import { FaFacebook } from 'react-icons/fa';
+// import {logoRT} from "images/logo.png";
 
 import {
     FooterContainer, 
@@ -35,6 +36,12 @@ const Footer = () => {
                             <FooterLink to='/signin'> About CLICK</FooterLink>
                        
                     </FooterLinkItems>
+                    {/* <Logo 
+                    component="img"
+                    height="140"
+                    image={logoRT}
+                    alt="ghihljs"/>
+                     */}
                 </FooterLinksWrapper>
             </FooterLinksContainer>
 
